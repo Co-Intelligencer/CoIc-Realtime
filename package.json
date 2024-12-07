@@ -4,12 +4,14 @@
   "description": "HI ♥",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node -r pino-pretty src/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0"
   }
 }
