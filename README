@@ -1,1 +1,8 @@
 HI ♥
+Create a web app that uses the conversational AI from openai with the realtime api as shown in:
+https://openai.com/index/introducing-the-realtime-api/
+https://platform.openai.com/docs/guides/realtime
+
+The app shold have one start/stop button, which starts the conversational ai.
+The AI would participate in a meeting (a talking circle) and contribute to the conversation when it is its turn in the round.
+Means it listens all the time, and get triggerd either with the click or with a trigger word to contribute.
